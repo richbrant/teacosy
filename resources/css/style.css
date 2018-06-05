@@ -1,0 +1,37 @@
+html{
+
+}
+
+body{
+  background-color: black;
+  font-family: helvetica, sans-serif;
+  color: seashell;
+  opacity: 0.9;
+  font-size: 22px;
+
+}
+
+header{
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+  height: 69px;
+
+}
+
+header img {
+  max-height: 50px;
+  margin-top: 10px;
+  color: inherit;
+}
+
+header nav{
+  display: flex;
+  align-items: flex-end;
+}
+
+header nav a{
+  padding: 20px 20px;
+  color: inherit;
+  font-family: inherit;
+}
