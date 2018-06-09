@@ -17,6 +17,10 @@ header{
   display: flex;
   justify-content: space-between;
   height: 69px;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  background-color: inherit;
 }
 
 header img {
@@ -63,6 +67,7 @@ header nav a{
 .teamonth{
   width: 1000px;
   margin: auto;
+  padding: 75px 0px;
 }
 
 .picturecontainer{
@@ -84,4 +89,40 @@ header nav a{
 .picture h4{
   padding: 0;
   margin: 0;
+}
+
+.locations{
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  padding-top: 30px;
+  margin: auto;
+}
+
+.boxcontainer{
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 20px;
+}
+
+.box{
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+footer{
+  width: 100%;
+  text-align: left;
+  padding: 20px;
 }
